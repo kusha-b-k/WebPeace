@@ -19,6 +19,17 @@ body {
   background-size: 100% 100%;
 }
 
+h1,
+h6 {
+	font-family: 'Open Sans';
+	font-weight: 300;
+	text-align: center;
+	position: absolute;
+	top: 45%;
+	right: 0;
+	left: 0;
+}
+
 .Updown{
   animation: animationFrames linear 10.8s;
   animation-iteration-count: 1;
