@@ -17,6 +17,13 @@ body {
 
   background-color: #83bfe8;
   background-size: 100% 100%;
+	
+	
+	
+	font-family: 'Tangerine', serif;
+  font-size: 48px;
+  color: white;
+  text-shadow: 4px 4px 4px black;
 }
 
 h1,
