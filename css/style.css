@@ -1,5 +1,5 @@
 
-body {
+/*body {
   min-height: 100vh;
   background-image: 
     repeating-linear-gradient(324deg, 
@@ -24,6 +24,27 @@ body {
   font-size: 48px;
   color: white;
   text-shadow: 4px 4px 4px black;
+}*/
+body {
+  background: #0A212E;
+  animation: colorChange 20s infinite;
+}
+@keyframes colorChange {
+  0% {
+    background: #2CAB5B;
+  }
+  25% {
+    background: #FABC03;
+  }
+  50% {
+    background: #ED4B40;
+  }
+  75% {
+    background: #4286F3;
+  }
+  100% {
+    background: #2CAB5B;
+  }
 }
 
 h1,
